@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+	<!-- Internet Assignment by Kingsley Chimezie -->
+    <meta charset="utf-8">
+	<meta name="author" content="Kingsley Chimezie">
+
+	<!-- TemplateBeginEditable name="doctitle" -->
+    <title>History of the Internet - Site Template</title>
+    <!-- TemplateEndEditable -->
+    
+	<link href="../CSS/MainStyle.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body>
+	<!-- This is the main container for the site structure -->
+    <div class="container">
+    
+    	<header></header>
+        
+    <!-- Navigation -->
+    <div class="sidebar1">
+        <nav>
+          <ul>
+            <li><a href="../Pages/index.html" target="_self">History</a></li>
+            <li><a href="../Pages/timeline.html" target="_self">Timeline</a></li>
+            <li><a href="../Pages/structure.html" target="_self">Structure</a></li>
+            <li><a href="../Pages/administration.html" target="_self">Administration</a></li>
+            <li><a href="../Pages/evaluation.html" target="_self">Evaluation</a></li>
+            <li><a href="../Pages/uses.html" target="_self">Uses</a></li>
+          </ul>
+        </nav>
+        
+        <!-- This "aside" tag defines the content within aside from the content it is placed in -->
+      <aside>
+          <img src="../images/b-421325-animated_computer.gif" width="200" height="201"  alt="GIF image"/>
+          
+          <table width="200" border="5" align="center" cellpadding="5">
+            <tr>
+              <td align="center"><a href="../Pages/index.html#HistoryVideo" title="Watch History of the Internet video">History &amp; Structure of The Internet</a></td>
+            </tr>
+          </table>
+        </aside>
+   
+    </div><!-- end of .sidebar1 -->
+    
+    <!-- Editable Content Region for sample pages -->
+    <!-- TemplateBeginEditable name="EditableContent" -->
+    <article class="content">
+    <h1 align="center"><i>Heading 1</i></h1>
+    <hr><br>
+    
+    <section>
+      <h2><center>Heading 2</center></h2>
+      <p>Lorem ipsum dolor it amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolhre magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+    
+      <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+    </section>
+    <br>
+    <hr>
+    </article>
+	<!-- TemplateEndEditable --><!-- end .content -->
+    
+    <footer>
+          <table width="1024" align="center">
+            <tr>
+              <td width="838" height="52" style="font-size: 9pt">&copy;2014 - Kingsley Chimezie <br> Website Designed by - Kingsley Chimezie</td>
+              <td width="120" align="right"><span style="font-size: 9pt"><a href="#" title="Go to top of the page" target="_top">Back to top</a></span></td>
+              <td width="50" align="right"><a href="#"><img src="../images/back-to-top-button.png"  alt="Back to top" width="50" height="50" usemap="#Map" title="Back to top button"/></a></td>
+            </tr>
+        </table>
+	</footer>
+    
+    </div><!-- end .container -->
+    
+</body>
+
+</html>

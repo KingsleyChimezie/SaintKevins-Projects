@@ -1,0 +1,85 @@
+/*
+* Kingsley Chimezie - Web Assignment
+* CSS Documents 
+*/
+
+@charset "utf-8";
+#pagesheader {
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-top: 25px;
+}
+
+
+#container {
+	width: 1024px;
+	background-color: #292929;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#menu {
+	width: 1024px;
+	background-image: url(../images/Downloaded%20Images/Backgrounds/3.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: "Charlie Brown M54";
+}
+
+#maincontainer {
+	width: 1024px;
+}
+#content {
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 14px;
+}
+
+
+#footer {
+	foot-size: 12px;
+	width: 1024px;
+}
+
+ul.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+ul.nav li {
+	float: right;
+	width: 150px;
+	display: block;
+}
+
+ ul.nav a:link, ul.nav a:visited {
+	display: block;
+	font-weight: bold;
+	background-color: #FFCC00;
+	width: 150px;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #292929;
+}
+
+ul.nav a:hover, ul.nav a:active {
+	background-color: #292929;
+	color: #FFFFFF;
+}
+
+hr {
+	margin-left: auto;
+	margin-right: auto;
+	border-color: #666666;
+}

@@ -1,0 +1,19 @@
+/*
+* Kingsley Chimezie - Web Assignment
+* CSS Documents
+*/
+
+@charset "utf-8";
+body {
+	background-image: url(../images/Downloaded%20Images/Backgrounds/12.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #000000;
+	background-position: center 0%;
+}
+#container {
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 200px;
+}

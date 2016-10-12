@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Splash Page Template</title>
+<!-- TemplateEndEditable -->
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_displayStatusMsg(msgStr) { //v1.0
+  window.status=msgStr;
+  document.MM_returnValue = true;
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../css/splash-template-css.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+</head>
+
+<body onLoad="MM_preloadImages('../images/My Designed images/VPK/facebook coming-soon.png','../images/My Designed images/VPK/4. youtube hover.png','../images/My Designed images/VPK/5. twitter hover.png','../images/My Designed images/VPK/7. googleplus hover.png','../images/My Designed images/VPK/3. splashpage banner hover.png','../images/My Designed images/VPK/8. email hover.png')">
+<div id="container"><!-- TemplateBeginEditable name="Splash Page Content Container" -->S<img src="../images/My Designed images/VPK/splash-page-banner.png"  alt="" width="1024" height="550" usemap="#Map" id="Image1"/>
+  <map name="Map">
+      <area shape="circle" coords="513,422,31" alt="Facebook Account" onMouseOver="MM_swapImage('Image1','','../images/My Designed images/VPK/facebook coming-soon.png',1)" onMouseOut="MM_swapImgRestore()">
+      <area shape="circle" coords="341,422,31" href="https://www.youtube.com/channel/UCWfYPetw5yLzCT8mm4kstNA?sub_confirmation=1" target="_blank" alt="YouTube Channel" onMouseOver="MM_swapImage('Image1','','../images/My Designed images/VPK/4. youtube hover.png',1)" onMouseOut="MM_swapImgRestore()">
+      <area shape="circle" coords="427,422,31" href="https://twitter.com/VirtualProKings" target="_blank" alt="Twitter Account" onMouseOver="MM_swapImage('Image1','','../images/My Designed images/VPK/5. twitter hover.png',1)" onMouseOut="MM_swapImgRestore()">
+      <area shape="circle" coords="598,422,31" href="https://plus.google.com/u/0/b/105576335980264503734/114615296461545494306/videos?pageId=105576335980264503734" target="_blank" alt="Google Plus Account" onMouseOver="MM_swapImage('Image1','','../images/My Designed images/VPK/7. googleplus hover.png',1)" onMouseOut="MM_swapImgRestore()">
+      <area shape="rect" coords="18,37,268,87" href="../pages/home.html" target="_self" alt="Official website of Virtual Pro Kings" onMouseOver="MM_swapImage('Image1','','../images/My Designed images/VPK/3. splashpage banner hover.png',1)" onMouseOut="MM_swapImgRestore()">
+      <area shape="circle" coords="684,422,32" href="../pages/contact.html" target="_self" alt="Mail" onMouseOver="MM_swapImage('Image1','','../images/My Designed images/VPK/8. email hover.png',1)" onMouseOut="MM_swapImgRestore()">
+  </map>
+<!-- TemplateEndEditable --></div>
+</body>
+</html>

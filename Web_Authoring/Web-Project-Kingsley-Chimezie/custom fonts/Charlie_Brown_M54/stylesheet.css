@@ -1,0 +1,48 @@
+/*
+* Kingsley Chimezie - Web Assignment
+* Style Sheet Documents
+*/
+
+@font-face {
+	font-family: 'Charlie Brown M54';
+	src: url('Charlie Brown M54.ttf') format('truetype');
+}
+#top-hr {
+	width: 950px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+#bottom-hr {
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+}
+.ImgFloatLeft {
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+.TableStyle      {
+	border-color: #FF9900;
+	padding-top: auto;
+	padding-bottom: auto;
+}
+.contact {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 450px;
+
+}
+.ClubTable {
+	background-image: url(../../images/Downloaded%20Images/Backgrounds/blur%20backgrounds/blur-background10.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+	border-left-color: #666666;
+	border-bottom-color: #666666;
+	border-right-color: #666666;
+	border-top-color: #666666;
+}

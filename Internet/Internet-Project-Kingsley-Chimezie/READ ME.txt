@@ -1,0 +1,16 @@
+Please use Google Chrome browser to preview my webpages.
+
+Chrome provides the best HTML & CSS code compatability.
+*********************************************************
+
+1 - Install Google Chrome
+
+2 - Right click on the webpage
+
+3 - Click Open with
+
+4 - Choose Default Program
+
+5 - Google Chrome
+
+6 - Click Ok

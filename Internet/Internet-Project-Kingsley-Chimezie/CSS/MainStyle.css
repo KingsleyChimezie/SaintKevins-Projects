@@ -1,0 +1,201 @@
+/*
+* Kingsley Chimezie - Internet Assignment
+* Style Sheet Documents
+--------------------------------------------------------------------------------*/
+
+
+/* GENERAL STYLING
+--------------------------------------------------------------------------------*/
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #999999;
+	/* [disabled]padding: 0; */
+	color: #000;
+	margin-left: auto;
+	margin-right: auto;
+	/* [disabled]margin-top: 0; */
+	background-image: url(../images/3d-Blue-Globe-Powerpoint-Background.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+	font-size: 12pt;
+}
+
+h1 {
+	font-size: 18pt;
+}
+h2 {
+	font-size: 16pt;
+	text-align: center;
+}
+h3 {
+	font-size: 14pt;
+}
+body,td,th {
+	font-size: 12pt;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #666666;
+}
+
+a:active {
+	text-decoration: underline;
+	color: #FF6600;
+}
+
+a:link {
+	/* [disabled]color: #00FF00; */
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #FF6600;
+}
+
+header, section, footer, aside, article, figure {
+	display: block;
+	font-size: 12pt;
+	text-align: justify;
+}
+
+.imageFloat {
+	float: left;
+	margin-right: 15px;
+}
+
+
+/* CONTAINER
+--------------------------------------------------------------------------------*/
+.container {
+	width: 1024px;
+	background-color: #FFFFFF; 
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+}
+
+
+/* HEADER
+--------------------------------------------------------------------------------*/
+header {
+	background-color: #9999FF;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	/* [disabled]background-attachment: fixed; */
+	height: 250px;
+	background-image: url(../images/HeaderImg.png);
+}
+
+
+/* SIDEBAR
+--------------------------------------------------------------------------------*/
+.sidebar1 {
+	text-decoration: none;
+	font-style: italic;
+	font-size: 12pt;
+	float: left;
+	width: 200px;
+	background-color: #A3C7FB;
+	/* [disabled]padding-bottom: 10px; */
+	text-decoration: none;
+	background-image: url(../images/blur-background10.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #999999;
+}
+
+
+/* NAVIGATION
+--------------------------------------------------------------------------------*/
+nav ul{
+	list-style: none;
+	border-top: 1px solid #666;
+	/* [disabled]margin-bottom: 15px; */
+	font-weight: bold;
+	text-align: center;
+	font-size: 12pt;
+}
+
+nav li {
+	border-bottom: 1px solid #666;
+	text-decoration: none;
+}
+
+nav a, nav a:visited {
+	display: block;
+	width: 200px;
+	background-color: #A3C7FB;
+	padding-bottom: 15px;
+	/* [disabled]padding-left: 30px; */
+	/* [disabled]padding-right: 25px; */
+	padding-top: 15px;
+	text-decoration: none;
+	background-image: url(../images/blur-background10.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #CCCCCC;
+}
+
+nav a:hover, nav a:active, nav a:focus {
+	background-color: #FFFFFF;
+	color: #FFF;
+	font-weight: bold;
+}
+
+
+/* CONTENT
+--------------------------------------------------------------------------------*/
+.content {
+	width: 800px;
+	float: left;
+	margin-bottom: 25px;
+	/* [disabled]padding-bottom: 10px; */
+	padding-left: 0;
+	padding-right: 0;
+	/* [disabled]padding-top: 10px; */
+	margin-top: 25px;
+}
+
+.content hr {
+	margin-left: 15px;
+}
+
+.content ul, .content ol {
+	padding-bottom: 15px;
+	padding-left: 40px;
+	padding-right: 15px;
+	padding-top: 0;
+	text-decoration: none;
+}
+
+
+/* FOOTER
+--------------------------------------------------------------------------------*/
+footer {
+	background-color: #CCC49F;
+	position: relative;
+	clear: both;
+	/* [disabled]padding-bottom: 10px; */
+	padding-left: auto;
+	padding-right: auto;
+	/* [disabled]padding-top: 10px; */
+}
